@@ -8,6 +8,7 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
+  padding: 0;
 }
 
 div {
@@ -106,6 +107,15 @@ div {
 
 .section-title {
   margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
 }
 
 .digits {
@@ -113,20 +123,20 @@ div {
   flex-direction: column;
 }
 
-.section-title-digits {
+.table {
+  display: flex;
+}
+
+.table__heading {
   line-height: 1.15;
-  font-size: 60px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.section-subtitle-digits {
-  line-height: 34px;
-  font-size: 24px;
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
   font-weight: normal;
-}
-
-.table {
-  display: flex;
 }
 
 .table-digits {
@@ -135,16 +145,7 @@ div {
   padding-top: 60px;
 }
 
-.table__heading-digits {
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .table__text-digits {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
   margin-bottom: 20px;
 }
 
@@ -189,10 +190,69 @@ div {
   height: 637px;
   z-index: -1;
 }
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
+
+.kaufman {
+  background-color: #1f1f1f;
+  overflow: hidden;
+  z-index: -1;
+  margin: 90px auto;
+}
+
+.kaufman__triangle {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+}
+
+.section-header-kaufman {
+  color: #fff;
+}
+
+.table__cell-theme-dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.footer {
+  background-color: #1f1f1f;
+  color: #fff;
+  min-height: 350px;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+}
+
+.footer__column-copyright {
+  flex-basis: 711px;
+  display: flex;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.logo-footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__column-heading {
+  margin-bottom: 20px;
+  line-height: 45px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  list-style-type: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
 }
