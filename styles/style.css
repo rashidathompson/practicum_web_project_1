@@ -266,6 +266,7 @@
   padding-top: 60px;
   padding-bottom: 40px;
   justify-content: space-around;
+  margin: auto;
 }
 
 .footer__column-copyright {
@@ -291,9 +292,15 @@
 
 .footer__column-links {
   list-style-type: none;
+  text-decoration: none;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+}
+
+.footer__column-link-item {
+  text-decoration: none;
+  color: white;
 }
 
 .footer__social-icon-links {
