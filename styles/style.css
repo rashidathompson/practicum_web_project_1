@@ -151,17 +151,19 @@
 .table__text-digits {
   margin-bottom: 20px;
 }
-/*.feynman {
+
+.feynman {
+  min-height: 790px;
   background-color: #f2f2f2;
 }
 
 .feynman__title {
+  text-align: center;
+  margin: 100px auto 70px;
   width: 775px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: 100px auto 70px; /* top margin doesn't seem to adjust as expected
-  text-align: center;
 }
 
 .feynman__subtitle {
@@ -173,23 +175,21 @@
 }
 
 .feynman__link {
-  width: 48px;
+  position: absolute;
+  right: 48px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
   color: #000;
-  position: absolute;
-  top: 50%;
 }
 
 .feynman__image {
   width: 867px;
   height: 637px;
-  z-index: -1;
 }
 
-.kaufman {
+/*.kaufman {
   background-color: #1f1f1f;
   overflow: hidden;
   z-index: -1;
