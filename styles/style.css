@@ -11,10 +11,6 @@
   padding: 0;
 }
 
-div {
-  border: 1px solid red;
-}
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -32,7 +28,7 @@ div {
   z-index: 1;
 }
 
- .header__title {
+.header__title {
   width: 730px;
   margin-left: 64px;
   align-self: center;
@@ -75,7 +71,7 @@ div {
   top: 64px;
 }
 
-/*.description {
+.description {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -101,38 +97,49 @@ div {
   font-weight: bold;
 }
 
-.section-header {
-  width: 60%;
-  text-align: center;
-  margin: auto;
+.table {
+  list-style-type: none;
 }
 
-.section-title {
-  margin-bottom: 20px;
+.table-digits {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 1100px;
+  margin: 0 auto 100px;
+  padding-top: 60px;
+}
+
+.table__cell-digits {
+  width: 250px;
+  margin-bottom: 60px;
+}
+
+.section-title-digits {
+  text-align: center;
+  width: 60%;
+  margin: 100px auto 20px;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
 }
 
-.section-subtitle {
+.section-subtitle-digits {
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-}
-
-.digits {
-  display: flex;
-  flex-direction: column;
-}
-
-.table {
-  display: flex;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .table__text {
@@ -141,21 +148,10 @@ div {
   font-weight: normal;
 }
 
-.table-digits {
-  width: 1100px;
-  width: 250px;
-  padding-top: 60px;
-}
-
 .table__text-digits {
   margin-bottom: 20px;
 }
-
-/* .table__break-digits {
-  height: 60px;
-} */
-
-.feynman {
+/*.feynman {
   background-color: #f2f2f2;
 }
 
@@ -164,7 +160,7 @@ div {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: 100px auto 70px; /* top margin doesn't seem to adjust as expected */
+  margin: 100px auto 70px; /* top margin doesn't seem to adjust as expected
   text-align: center;
 }
 
