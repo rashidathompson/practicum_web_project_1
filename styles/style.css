@@ -8,7 +8,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-  padding: 0;
 }
 
 .header {
@@ -36,7 +35,6 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -194,6 +192,7 @@
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
+  position: relative;
 }
 
 .kaufman__triangle {
