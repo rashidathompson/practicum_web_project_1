@@ -10,12 +10,22 @@
   color: #000;
 }
 
+p,
+ul,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
   display: flex;
+  position: relative;
 }
 
 .logo_place_header {
@@ -28,7 +38,7 @@
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
   margin-left: 64px;
   align-self: center;
   line-height: 96px;
@@ -70,15 +80,11 @@
   top: 64px;
 }
 
-.description {
+.two-columns {
   display: flex;
   justify-content: space-between;
-}
-
-.two-columns {
   width: 80%;
   margin: 100px auto;
-  display: flex;
 }
 
 .two-columns__brief {
@@ -100,8 +106,13 @@
   font-weight: normal;
 }
 
+.two-columns__paragraph:nth-of-type(2) {
+  margin: 30px 0;
+}
+
 .two-columns__span-accent {
   font-weight: bold;
+  margin: 30px 0;
 }
 
 .table {
@@ -112,7 +123,6 @@
   justify-content: space-evenly;
   width: 1100px;
   margin: 0 auto 100px;
-  padding-top: 60px;
 }
 
 .section-title {
@@ -135,7 +145,7 @@
 
 .table__cell {
   width: 250px;
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 .table__heading {
@@ -156,11 +166,15 @@
 .feynman {
   min-height: 790px;
   background-color: #f2f2f2;
+  background: url(../images/feynman.png) no-repeat bottom left;
+  padding-top: 100px;
+  position: relative;
 }
 
 .feynman__title {
   text-align: center;
-  margin: 100px auto 70px;
+  margin: auto;
+  margin-bottom: 70px;
   width: 775px;
   line-height: 1.15;
   font-size: 120px;
@@ -177,6 +191,7 @@
 
 .feynman__link {
   position: absolute;
+  top: 50%;
   right: 48px;
   line-height: 51px;
   font-size: 36px;
@@ -188,6 +203,7 @@
 .feynman__image {
   width: 867px;
   height: 637px;
+  position: absolute;
 }
 
 .kaufman {
@@ -258,6 +274,7 @@
   background-color: #1f1f1f;
   color: #fff;
   min-height: 350px;
+  display: flex;
 }
 
 .logo_place_footer {
@@ -270,21 +287,21 @@
   display: flex;
   padding-top: 60px;
   padding-bottom: 40px;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: space-between;
+  margin: 0 auto;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  align-self: flex-end;
-  position: absolute;
 }
 
 .footer__column-heading {
@@ -306,4 +323,8 @@
 .footer__column-link-item {
   text-decoration: none;
   color: white;
+}
+
+.footer__social-icon {
+  margin-right: 7px;
 }
