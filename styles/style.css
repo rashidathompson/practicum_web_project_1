@@ -10,11 +10,9 @@
   color: #000;
 }
 
-p,
-ul,
-h1,
-h2,
-h3 {
+.header,
+.content,
+.footer {
   margin: 0;
   padding: 0;
 }
@@ -165,8 +163,7 @@ h3 {
 
 .feynman {
   min-height: 790px;
-  background-color: #f2f2f2;
-  background: url(../images/feynman.png) no-repeat bottom left;
+  background: #f2f2f2 url("../images/feynman.png") no-repeat bottom left;
   padding-top: 100px;
   position: relative;
 }
@@ -217,6 +214,7 @@ h3 {
   width: 877px;
   height: 877px;
   background-image: url("../images/kaufman-triangle.svg");
+  background-size: contain;
   position: absolute;
   top: 0;
   right: -210px;
