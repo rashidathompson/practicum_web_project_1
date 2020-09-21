@@ -11,8 +11,12 @@
 }
 
 .header,
-.content,
-.footer {
+.description,
+.digits,
+.feynman,
+.kaufman,
+.footer,
+.footer__column-links {
   margin: 0;
   padding: 0;
 }
@@ -172,7 +176,7 @@
   text-align: center;
   margin: auto;
   margin-bottom: 70px;
-  width: 775px;
+  max-width: 775px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -221,22 +225,10 @@
 }
 
 .section-title_theme_dark {
-  text-align: center;
-  width: 60%;
-  margin: 100px auto 20px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
   position: relative;
 }
 
 .section-subtitle_theme_dark {
-  text-align: center;
-  width: 60%;
-  margin: 0 auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
   position: relative;
 }
 
