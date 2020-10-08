@@ -36,7 +36,6 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 1;
-  border: 1px solid red;
 }
 
 .header__subtitle {
@@ -194,6 +193,7 @@
   background-color: #1f1f1f;
   color: #fff;
   overflow: hidden;
+  z-index: -1;
 }
 
 .section-title-theme-dark {
@@ -219,7 +219,6 @@
   height: 877px;
   position: absolute;
   right: -210px;
-  z-index: -1;
 }
 
 .table-theme-dark {
@@ -228,6 +227,7 @@
   width: 1100px;
   flex-wrap: wrap;
   margin: 0 auto 90px;
+  z-index: 1;
 }
 
 .table__heading-theme-dark {
