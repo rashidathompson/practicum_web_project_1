@@ -3,6 +3,8 @@
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/table/table.css");
+@import url("../blocks/section-title/section-title.css");
+@import url("../blocks/section-subtitle/section-subtitle.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -15,24 +17,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.section-title {
-  text-align: center;
-  width: 60%;
-  margin: 100px auto 20px;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.section-subtitle {
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0 auto;
-  text-align: center;
 }
 
 .cards {
@@ -235,16 +219,6 @@
   position: absolute;
   top: 0;
   right: -210px;
-}
-
-.section-title_theme_dark {
-  position: relative;
-  color: white;
-}
-
-.section-subtitle_theme_dark {
-  position: relative;
-  color: white;
 }
 
 .resources__logo-zone {
