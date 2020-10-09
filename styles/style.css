@@ -1,3 +1,5 @@
+@import url("../blocks/rotation/rotation.css");
+
 .page {
   min-width: 1100px;
   /* we don't know how to make mobile versions of websites yet, */
