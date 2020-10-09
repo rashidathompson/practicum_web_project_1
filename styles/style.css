@@ -7,6 +7,7 @@
 @import url("../blocks/section-subtitle/section-subtitle.css");
 @import url("../blocks/cards/cards.css");
 @import url("../blocks/video/video.css");
+@import url("../blocks/oakley/oakley.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -19,13 +20,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.oakley {
-  background-color: #f2f2f2;
-  margin-top: -60px;
-  padding-top: 60px;
-  padding-bottom: 80px;
 }
 
 .feynman {
