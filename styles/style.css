@@ -378,6 +378,10 @@
   font-weight: normal;
 }
 
+.resources__logo-zone {
+  list-style-type: none;
+}
+
 .footer {
   background-color: #1f1f1f;
   color: #fff;
