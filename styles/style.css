@@ -10,6 +10,7 @@
 @import url("../blocks/oakley/oakley.css");
 @import url("../blocks/feynman/feynman.css");
 @import url("../blocks/khan/khan.css");
+@import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -22,23 +23,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.kaufman {
-  background-color: #1f1f1f;
-  color: #fff;
-  overflow: hidden;
-  position: relative;
-}
-
-.kaufman__triangle {
-  width: 877px;
-  height: 877px;
-  background-image: url("../images/kaufman-triangle.svg");
-  background-size: contain;
-  position: absolute;
-  top: 0;
-  right: -210px;
 }
 
 .resources__logo-zone {
