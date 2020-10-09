@@ -1,6 +1,7 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/logo/logo.css");
+@import url("../blocks/two-columns/two-columns.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -13,46 +14,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.two-columns {
-  display: flex;
-  justify-content: space-between;
-  width: 80%;
-  margin: 0 auto;
-  padding-top: 100px;
-}
-
-.two-columns__brief {
-  margin: 0;
-  padding: 0;
-  width: 175px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-}
-
-.two-columns__main-text {
-  width: 80%;
-  min-width: 784px;
-}
-
-.two-columns__paragraph {
-  margin: 0;
-  padding: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.two-columns__paragraph:nth-of-type(2) {
-  margin: 30px 0;
-}
-
-.two-columns__span-accent {
-  font-weight: bold;
-  margin: 30px 0;
 }
 
 .table {
