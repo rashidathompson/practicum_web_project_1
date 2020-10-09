@@ -56,6 +56,11 @@
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity 0.5s linear;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__main-illustration {
@@ -251,6 +256,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #000;
+  transition: opacity 0.5s linear;
+}
+
+.feynman__link:hover {
+  opacity: 0.5;
 }
 
 .feynman__image {
@@ -320,6 +330,11 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
+  transition: opacity 0.5s linear;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
 
 .kaufman {
@@ -446,6 +461,11 @@
 .footer__column-link-item {
   text-decoration: none;
   color: white;
+  transition: opacity 0.5s linear;
+}
+
+.footer__column-link-item:hover {
+  opacity: 0.5;
 }
 
 .footer__social-icon {
