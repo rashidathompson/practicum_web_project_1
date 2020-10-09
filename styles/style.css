@@ -23,15 +23,6 @@
   overflow: hidden;
 }
 
-.logo_place_header {
-  width: 154px;
-  height: 31px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 1;
-}
-
 .header__title {
   max-width: 730px;
   margin-left: 64px;
@@ -81,11 +72,21 @@
   transform: rotate(-15deg);
 }
 
+.logo_place_header {
+  width: 154px;
+  height: 31px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  z-index: 1;
+}
+
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto;
+  padding-top: 100px;
 }
 
 .two-columns__brief {
@@ -174,11 +175,12 @@
   width: 920px;
   list-style-type: none;
   display: flex;
-  flex-direction: row wrap;
+  flex-wrap: wrap;
 }
 
 .cards__item {
-  margin-right: 100px;
+  /* margin-right: 100px; */
+  width: 240px;
 }
 
 .cards__image {
@@ -218,7 +220,8 @@
 
 .oakley {
   background-color: #f2f2f2;
-  padding-top: 160px;
+  margin-top: -60px;
+  padding-top: 60px;
   padding-bottom: 80px;
 }
 
@@ -342,6 +345,7 @@
   color: #fff;
   overflow: hidden;
   position: relative;
+  margin-top: -220px;
 }
 
 .kaufman__triangle {
