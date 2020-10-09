@@ -1,5 +1,6 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/header/header.css");
+@import url("../blocks/logo/logo.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -12,15 +13,6 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.logo_place_header {
-  width: 154px;
-  height: 31px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-  z-index: 1;
 }
 
 .two-columns {
@@ -370,11 +362,6 @@
   color: #fff;
   min-height: 350px;
   display: flex;
-}
-
-.logo_place_footer {
-  width: 183px;
-  height: 35px;
 }
 
 .footer__columns {
