@@ -163,14 +163,14 @@
   margin-bottom: 20px;
 }
 
-.cards {
+/*.cards {
   padding: 0;
   margin: 0 auto;
   width: 920px;
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
@@ -199,7 +199,7 @@
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-}
+} */
 
 .video__iframes {
   padding: 0;
