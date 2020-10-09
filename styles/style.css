@@ -12,6 +12,7 @@
 @import url("../blocks/khan/khan.css");
 @import url("../blocks/kaufman/kaufman.css");
 @import url("../blocks/resources/resources.css");
+@import url("../blocks/footer/footer.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -24,65 +25,4 @@
   /* this ensures that all content is centered on screens wider than 1600px */
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #000;
-}
-
-.footer {
-  background-color: #1f1f1f;
-  color: #fff;
-  min-height: 350px;
-  display: flex;
-}
-
-.footer__columns {
-  width: 90%;
-  display: flex;
-  padding-top: 60px;
-  padding-bottom: 40px;
-  justify-content: space-between;
-  margin: 0 auto;
-}
-
-.footer__column_content_copyright {
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.footer__author {
-  line-height: 25px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-heading {
-  margin-top: 0;
-  margin-bottom: 20px;
-  line-height: 45px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.footer__column-links {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  text-decoration: none;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.footer__column-link-item {
-  text-decoration: none;
-  color: white;
-  transition: opacity 0.5s linear;
-}
-
-.footer__column-link-item:hover {
-  opacity: 0.5;
-}
-
-.footer__social-icon {
-  margin-right: 7px;
 }
