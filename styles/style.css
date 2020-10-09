@@ -325,6 +325,8 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
+  object-fit: cover;
+  object-position: top;
 }
 
 .khan__buy-link {
@@ -345,7 +347,6 @@
   color: #fff;
   overflow: hidden;
   position: relative;
-  margin-top: -220px;
 }
 
 .kaufman__triangle {
