@@ -1,3 +1,4 @@
+@import url("../vendor/normalize.css");
 @import url("../blocks/rotation/rotation.css");
 
 .page {
@@ -210,6 +211,12 @@
 
 .video__iframe {
   margin-right: 20px;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+  padding-top: 160px;
+  padding-bottom: 80px;
 }
 
 .feynman {
