@@ -5,7 +5,7 @@
 
 .feynman {
   min-height: 790px;
-  background: #f2f2f2 url("/images/feynman.png") no-repeat bottom left;
+  background: #f2f2f2 url("../../images/feynman.png") no-repeat bottom left;
   padding-top: 100px;
   position: relative;
 }
